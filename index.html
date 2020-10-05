@@ -26,9 +26,12 @@ if (!$ini) {
 					</div>
 					<div class="head-contacts">
 						<div class="b-phone-order">
-							<div class="phone-num">
+							<!-- <?php if ($ini['phone']) { ?> -->
+								<div class="phone-num">
 								<i class="phone-icon"></i><a href="tel:8 916 534 83 00">
+									<!-- <?php print $ini['phone'];?></a></div><?php } ?> -->
 							<a href="#" class="call-request">Заказать звонок</a>
+							</div>
 						</div>
 					</div>
 					<div class="header__order-cons">
@@ -403,7 +406,7 @@ if (!$ini) {
 				</div>
 				<div class="contacts-info">
 					<address class="b-contacts">
-						<!-- <span><?php print $ini['company_name']; ?> -->
+						<span><?php print $ini['company_name']; ?>
 						<span>ШпилькаОпт.Ру</span>
 						<span>
 						<!-- <?php print $ini['address']; ?> -->
