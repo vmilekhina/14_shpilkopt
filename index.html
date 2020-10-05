@@ -26,8 +26,8 @@ if (!$ini) {
 					</div>
 					<div class="head-contacts">
 						<div class="b-phone-order">
-							<?php if ($ini['phone']) { ?><div class="phone-num">
-								<i class="phone-icon"></i><a href="tel:8 916 534 83 00"><?php print $ini['phone'];?></a></div><?php } ?>
+							<div class="phone-num">
+								<i class="phone-icon"></i><a href="tel:8 916 534 83 00">
 							<a href="#" class="call-request">Заказать звонок</a>
 						</div>
 					</div>
@@ -403,14 +403,14 @@ if (!$ini) {
 				</div>
 				<div class="contacts-info">
 					<address class="b-contacts">
-						<span><?php print $ini['company_name']; ?>
-						<!-- <span>ШпилькаОпт.Ру</span> -->
+						<!-- <span><?php print $ini['company_name']; ?> -->
+						<span>ШпилькаОпт.Ру</span>
 						<span>
-						<?php print $ini['address']; ?>
+						<!-- <?php print $ini['address']; ?> -->
 						</span>
-						<!-- <span>г. Москва, Коломенская набережная, дом 14 А</span> -->
-						<?php if ($ini['phone']) { ?><span>тел. <?php print $ini['phone']; ?></span><?php } ?>
-						<!-- <span>тел. 8 916 534 83 00</span> -->
+						<span>г. Москва, Коломенская набережная, дом 14 А</span>
+						<!-- <?php if ($ini['phone']) { ?><span>тел. <?php print $ini['phone']; ?></span><?php } ?> -->
+						<span>тел. 8 916 534 83 00</span>
 					</address>
 					<div class="form-bot-wr">
 						<h3 class="form-title" contenteditable="true" id="id-block14">Оставьте телефон и мы<br /> вам перезвоним</h3>
