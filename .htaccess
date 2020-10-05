@@ -1,0 +1,6 @@
+AddDefaultCharset UTF-8
+
+<Files ~ "\.bak$">
+	Order allow,deny
+	Deny from all
+</Files>
